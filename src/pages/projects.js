@@ -9,8 +9,8 @@ import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
 
-import project2 from "../../public/images/projects/NPS.jpg";
-import project3 from "../../public/images/projects/Tic-Tac-Toe.jpg";
+import project2 from "../../public/images/projects/NPS.png";
+import project3 from "../../public/images/projects/Chatline.png";
 
 
 
@@ -80,7 +80,7 @@ const FeaturedProjects = ({ type, title, summary, img, link, github }) => {
   )
 }
 
-const Project = ({ title, type, img, link, github }) => {
+const Project = ({ title, type, img, link, github, summary }) => {
   return (
     <article className="w-full flex flex-col items-center justify-center rounded-2xl border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light
     xs:p-4
@@ -117,6 +117,10 @@ const Project = ({ title, type, img, link, github }) => {
           lg:text-2xl 
           ">{title}</h2>
         </Link>
+        <p className="my-2 font-medium text-dark 
+        dark:text-light
+        xm:text-sm
+        ">{summary}</p>
 
         <div className="w-full mt-2 flex tems-center justify-between">
 
@@ -169,22 +173,22 @@ const Projects = () => {
             <div className="col-span-12">
               <FeaturedProjects
 
-                title="NPS Mobile App"
+                title="YouTube-Clone"
                 img={project2}
-                summary="npsExplorer is a group project which resulted in a mobile-first application, offering users a personalized exploration experience of U.S. National Parks. Working as part of a small, dynamic team, I contributed my expertise in the MERN (MongoDB, Express, React, Node.js) stack, alongside Mongoose for effective MongoDB object modeling. The group-effort application presents extensive park details, suggested activities, historical context, and mesmerizing visuals, all sourced via the National Park Service API. I was personally responsible for incorporating a functionality that allows user image uploads through Uploadcare. This group project effectively showcases my skills in collaboratively developing visually-engaging applications, using a NoSQL backend and React frontend."
-                link="https://645ae12259fd3d52913fb954--grand-sunflower-c807ab.netlify.app/"
-                github="https://github.com/abdallah1936/npsexplorer-client"
+                summary="Created a YouTube clone using React, Material-UI, and Rapid API. This is a web application that allows users to search and watch videos from YouTube. I have used React for the frontend, Material-UI for the UI components, and Rapid API for the YouTube data API. I have also implemented features such as pagination, dark mode, and responsive design. This project demonstrates my ability to use modern web technologies and API to create a user-friendly and functional web application."
+                link="https://goyoutube.netlify.app/"
+                github="https://github.com/anirudhsalaria/YouTube"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 
             sm:col-span-12">
               <Project
-                title="Tic-Tac-Toe"
+                title="Chatline"
                 img={project3}
-                summary="My project, an enhanced version of the classic game Tic-Tac-Toe, was initiated following a React tutorial. Post-completion of the tutorial, I sought to elevate the user experience by reworking the CSS for a more intuitive and appealing game interface, as well as modifying JavaScript to highlight the winning sequence, as per the tutorial's recommendation. This project was not only a valuable learning exercise, but also a rewarding challenge that demonstrated my ability to take foundational code and iteratively improve upon it for a more enjoyable user experience."
-                link="https://tik-tak-toe-v2-0.vercel.app/"
-                github="https://github.com/abdallah1936/Tik-Tak-Toe-V2.0"
+                summary="Created an online chatting room where people can come and chat. I have used Firebase for Google authentication, Vite-ReactJS for the frontend, and Tailwind CSS for the UI design. This is a web application that allows users to sign in with their Google account, join chat rooms, and send or receive messages in real-time."
+                link="https://wechatline.netlify.app/"
+                github="https://github.com/anirudhsalaria/Chatline"
                 type="Project"
               />
             </div>

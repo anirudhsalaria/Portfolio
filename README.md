@@ -54,6 +54,12 @@ them. This website will automatically detect your location and will suggest you 
 hotels and restaurants around you. You can also search for different places by using 
 the searchbar or you can simply navigate it directly using the map.
 
+### [CSmart](https://github.com/anirudhsalaria/CSmart)
+Created a study material website, here you can find all the study material required
+to pass Btech CSE! I have used NextJs for the frontend, Tailwind CSS for the UI
+framework and Strapi CMS for the backend. All the content is stored on Strapi and
+it is deployed on Render.
+
 
 
 

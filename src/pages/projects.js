@@ -192,6 +192,61 @@ const Projects = () => {
                 type="Project"
               />
             </div>
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="GoNews"
+                img={project3}
+                summary="Created a news website using React, Bootstrap, and News API This is a web application that allows users to read daily news headlines from various sources and categories. I have used React for the front-end, Bootstrap for the UI framework, and News API for the news data API. I have also implemented features such as filtering and sorting."
+                link="https://github.com/anirudhsalaria/GoNews"
+                github="https://github.com/anirudhsalaria/GoNews"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="OneCamOne"
+                img={project3}
+                summary="Created an online chatting room where people can come and chat. I have used Firebase for Google authentication, Vite-ReactJS for the frontend, and Tailwind CSS for the UI design. This is a web application that allows users to sign in with their Google account, join chat rooms, and send or receive messages in real-time."
+                link="https://onecamone.netlify.app/"
+                github="https://github.com/anirudhsalaria/VideoCall"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="Travel Advisor"
+                img={project3}
+                summary="Created a Travel Advisor website using Reactjs, Material UI, GoogleMap API and Rapid API. This is a web application that allow users to find Restaurants, Hotels and Attractions around them. This website will automatically detect your location and will suggest you the hotels and restaurants around you. You can also search for different places by using the searchbar or you can simply navigate it directly using the map."
+                link="https://mytravelgo.netlify.app/"
+                github="https://github.com/anirudhsalaria/Travel-advisor"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="CSmart"
+                img={project3}
+                summary="Created a study material website, here you can find all the study material required to pass Btech CSE! I have used NextJs for the frontend, Tailwind CSS for the UI framework and Strapi CMS for the backend. All the content is stored on Strapi and it is deployed on Render."
+                link="https://github.com/anirudhsalaria/CSmart"
+                github="https://github.com/anirudhsalaria/CSmart"
+                type="Project"
+              />
+            </div>
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="HarryPotter- Website"
+                img={project3}
+                summary="Created a Harry Potter frontend website from scratch using HTML and CSS. This is a web application that allows users to download Harry Potter books. This website has a very good frontend that is appealing to all people. It has a theme based on the Harry Potter world, with images, fonts, colors, and animations that create a magical experience."
+                link="https://anirudhsalaria.github.io/Harrypotter/"
+                github="https://github.com/anirudhsalaria/Harrypotter"
+                type="Project"
+              />
+            </div>
             {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Crypto Screener App"

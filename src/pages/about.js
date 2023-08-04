@@ -51,7 +51,7 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">About Me</h2>
               <p className="font-medium">
-                Hello, I am a passionate and creative web developer with experience in open source, front-end and back-end
+                Hello, I am a passionate and creative web developer with experience in open source, frontend and backend
                 development. I have built and deployed various web applications using modern technologies and
                 frameworks such as React, Node.js, Vite.js, Next.js, MongoDB, Firebase, etc. I am an experienced coder
                 in JavaScript, C/C++ and Python. I am eager to learn new skills and contribute to innovative projects that
@@ -78,12 +78,7 @@ const about = () => {
             </div>
 
             <div className="col-span-2 flex flex-col items-end justify-between xl:col-span-8 xl:flex-row xl:items-center md:order-3">
-              <div className="flex flex-col items-end justify-center xl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={20} />+
-                </span>
-                <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm">satisfied clients</h2>
-              </div>
+              
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">

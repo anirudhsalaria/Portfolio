@@ -13,12 +13,13 @@ import project2 from "../../public/images/projects/NPS.png";
 import project3 from "../../public/images/projects/Chatline.png";
 import project4 from "../../public/images/projects/GoNews.png";
 import project5 from "../../public/images/projects/OneCamOne.png";
-import project6 from "../../public/images/projects/Travel Advisor.png";
+import project6 from "../../public/images/projects/TravelAdvisor.png";
 import project7 from "../../public/images/projects/CSmart.png";
 import project8 from "../../public/images/projects/HarryPotter.png";
 import project9 from "../../public/images/projects/AutoBee.png";
 import project10 from "../../public/images/projects/TopHire.png";
 import project11 from "../../public/images/projects/SayData.png";
+import project12 from "../../public/images/projects/Speak.png";
 
 
 
@@ -289,6 +290,19 @@ const Projects = () => {
                 summary="Created the Dashboard for SayData. I have used ReactJs for the frontend and Tailwind CSS for the UI Framework."
                 link="https://dashboard-saydata.netlify.app/"
                 github="https://github.com/anirudhsalaria/SayData"
+                type="Project"
+              />
+            </div>
+
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="Speak"
+                img={project12}
+                summary="Created a website using which people can convert there voice into text. I have used react-speech-recognition
+                node package for the same"
+                link="https://gospeak.netlify.app/"
+                github="https://github.com/anirudhsalaria/Speak"
                 type="Project"
               />
             </div>

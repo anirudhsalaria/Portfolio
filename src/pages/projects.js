@@ -20,6 +20,7 @@ import project9 from "../../public/images/projects/AutoBee.png";
 import project10 from "../../public/images/projects/TopHire.png";
 import project11 from "../../public/images/projects/SayData.png";
 import project12 from "../../public/images/projects/Speak.png";
+import project13 from "../../public/images/projects/TextGo.png";
 
 
 
@@ -190,14 +191,15 @@ const Projects = () => {
                 type="Featured Project"
               />
             </div>
+            
             <div className="col-span-6 
             sm:col-span-12">
               <Project
-                title="Chatline"
-                img={project3}
-                summary="Created an online chatting room where people can come and chat. I have used Firebase for Google authentication, Vite-ReactJS for the frontend, and Tailwind CSS for the UI design. This is a web application that allows users to sign in with their Google account, join chat rooms, and send or receive messages in real-time."
-                link="https://wechatline.netlify.app/"
-                github="https://github.com/anirudhsalaria/Chatline"
+                title="Travel Advisor"
+                img={project6}
+                summary="Created a Travel Advisor website using Reactjs, Material UI, GoogleMap API and Rapid API. This is a web application that allow users to find Restaurants, Hotels and Attractions around them. This website will automatically detect your location and will suggest you the hotels and restaurants around you. You can also search for different places by using the searchbar or you can simply navigate it directly using the map."
+                link="https://mytravelgo.netlify.app/"
+                github="https://github.com/anirudhsalaria/Travel-advisor"
                 type="Project"
               />
             </div>
@@ -223,14 +225,15 @@ const Projects = () => {
                 type="Project"
               />
             </div>
+            
             <div className="col-span-6 
             sm:col-span-12">
               <Project
-                title="Travel Advisor"
-                img={project6}
-                summary="Created a Travel Advisor website using Reactjs, Material UI, GoogleMap API and Rapid API. This is a web application that allow users to find Restaurants, Hotels and Attractions around them. This website will automatically detect your location and will suggest you the hotels and restaurants around you. You can also search for different places by using the searchbar or you can simply navigate it directly using the map."
-                link="https://mytravelgo.netlify.app/"
-                github="https://github.com/anirudhsalaria/Travel-advisor"
+                title="Chatline"
+                img={project3}
+                summary="Created an online chatting room where people can come and chat. I have used Firebase for Google authentication, Vite-ReactJS for the frontend, and Tailwind CSS for the UI design. This is a web application that allows users to sign in with their Google account, join chat rooms, and send or receive messages in real-time."
+                link="https://wechatline.netlify.app/"
+                github="https://github.com/anirudhsalaria/Chatline"
                 type="Project"
               />
             </div>
@@ -303,6 +306,20 @@ const Projects = () => {
                 node package for the same"
                 link="https://gospeak.netlify.app/"
                 github="https://github.com/anirudhsalaria/Speak"
+                type="Project"
+              />
+            </div>
+
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="TextGo"
+                img={project13}
+                summary="This is a web application that allows users to manipulate their text easily and 
+                efficiently. I have used React for the frontend and Bootstrap for the UI design. I 
+                have also implemented features such as dark mode. "
+                link="https://anirudhsalaria.github.io/TextGo/"
+                github="https://github.com/anirudhsalaria/TextGo"
                 type="Project"
               />
             </div>

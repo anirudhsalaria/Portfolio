@@ -16,6 +16,8 @@ import project5 from "../../public/images/projects/OneCamOne.png";
 import project6 from "../../public/images/projects/Travel Advisor.png";
 import project7 from "../../public/images/projects/CSmart.png";
 import project8 from "../../public/images/projects/HarryPotter.png";
+import project9 from "../../public/images/projects/AutoBee.png";
+import project10 from "../../public/images/projects/TopHire.png";
 
 
 
@@ -249,6 +251,31 @@ const Projects = () => {
                 summary="Created a Harry Potter frontend website from scratch using HTML and CSS. This is a web application that allows users to download Harry Potter books. This website has a very good frontend that is appealing to all people. It has a theme based on the Harry Potter world, with images, fonts, colors, and animations that create a magical experience."
                 link="https://anirudhsalaria.github.io/Harrypotter/"
                 github="https://github.com/anirudhsalaria/Harrypotter"
+                type="Project"
+              />
+            </div>
+
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="AutoBee"
+                img={project9}
+                summary="Created a Car rental website using NextJs, Typescript, Tailwind css and rapid API. Using this website you 
+                can search for different cars, filter them according to your need and see the per day prices for the same."
+                link="https://github.com/anirudhsalaria/AutoBee"
+                github="https://github.com/anirudhsalaria/AutoBee"
+                type="Project"
+              />
+            </div>
+
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="TopHire Website- Clone"
+                img={project10}
+                summary="Created the clone of TopHire Website - a leading company in recruitment using NextJs and Tailwind CSS, Tried to make the Website entirely simillar to the origonal one."
+                link="https://tophire-clone.netlify.app/"
+                github="https://github.com/anirudhsalaria/tophire_dashboard"
                 type="Project"
               />
             </div>

@@ -18,6 +18,7 @@ import project7 from "../../public/images/projects/CSmart.png";
 import project8 from "../../public/images/projects/HarryPotter.png";
 import project9 from "../../public/images/projects/AutoBee.png";
 import project10 from "../../public/images/projects/TopHire.png";
+import project11 from "../../public/images/projects/SayData.png";
 
 
 
@@ -276,6 +277,18 @@ const Projects = () => {
                 summary="Created the clone of TopHire Website - a leading company in recruitment using NextJs and Tailwind CSS, Tried to make the Website entirely simillar to the origonal one."
                 link="https://tophire-clone.netlify.app/"
                 github="https://github.com/anirudhsalaria/tophire_dashboard"
+                type="Project"
+              />
+            </div>
+
+            <div className="col-span-6 
+            sm:col-span-12">
+              <Project
+                title="SayData- Dashboard"
+                img={project11}
+                summary="Created the Dashboard for SayData. I have used ReactJs for the frontend and Tailwind CSS for the UI Framework."
+                link="https://dashboard-saydata.netlify.app/"
+                github="https://github.com/anirudhsalaria/SayData"
                 type="Project"
               />
             </div>

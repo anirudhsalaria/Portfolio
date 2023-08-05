@@ -7,8 +7,8 @@ import Image from "next/image";
 import { motion, useMotionValue } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-import article1 from "../../public/images/articles/pagination component in reactjs.jpg";
-import article2 from "../../public/images/articles/web scraping python.jpg";
+import article1 from "../../public/images/articles/paginationcomponentinreactjs.jpg";
+import article2 from "../../public/images/articles/webscrapingpython.jpg";
 import article3 from "../../public/images/articles/A Beginner’s Guide to Tailwind CSS.jpg";
 import article4 from "../../public/images/articles/backend dev roadmap.jpg";
 import article5 from "../../public/images/articles/smooth scrolling in reactjs.jpg";

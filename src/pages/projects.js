@@ -243,7 +243,7 @@ const Projects = () => {
                 title="CSmart"
                 img={project7}
                 summary="Created a study material website, here you can find all the study material required to pass Btech CSE! I have used NextJs for the frontend, Tailwind CSS for the UI framework and Strapi CMS for the backend. All the content is stored on Strapi and it is deployed on Render."
-                link="https://github.com/anirudhsalaria/CSmart"
+                link="https://csmart.netlify.app/"
                 github="https://github.com/anirudhsalaria/CSmart"
                 type="Project"
               />

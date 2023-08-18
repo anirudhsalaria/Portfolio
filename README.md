@@ -60,7 +60,10 @@ to pass Btech CSE! I have used NextJs for the frontend, Tailwind CSS for the UI
 framework and Strapi CMS for the backend. All the content is stored on Strapi and
 it is deployed on Render.
 
-
+### [AutoBee](https://github.com/anirudhsalaria/AutoBee)
+Created a Car rental website using NextJs, Typescript, Tailwind css and rapid API. Using 
+this website you can search for different cars, filter them according to your need and see 
+the per day prices for the same.
 
 
 ## 🎓 Education

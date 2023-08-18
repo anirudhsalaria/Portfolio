@@ -65,6 +65,11 @@ Created a Car rental website using NextJs, Typescript, Tailwind css and rapid AP
 this website you can search for different cars, filter them according to your need and see 
 the per day prices for the same.
 
+### [TextGo](https://github.com/anirudhsalaria/TextGo)
+This is a web application that allows users to manipulate their text easily and efficiently.
+I have used React for the frontend and Bootstrap for the UI design. I have also implemented
+features such as dark mode.
+
 
 ## 🎓 Education
 I am persuing BTech in Computer Science Engineering from Shri Mata Vaishno Devi University.

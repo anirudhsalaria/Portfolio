@@ -185,13 +185,14 @@ const Projects = () => {
 
                 title="YouTube-Clone"
                 img={project2}
-                summary="Created a YouTube clone using React, Material-UI, and Rapid API. This is a web application that allows users to search and watch videos from YouTube. I have used React for the frontend, Material-UI for the UI components, and Rapid API for the YouTube data API. I have also implemented features such as pagination, dark mode, and responsive design. This project demonstrates my ability to use modern web technologies and API to create a user-friendly and functional web application."
+                summary="As the 2nd largest search engine next to Google, YouTube is one of the best ways to communicate to a wide audience, whether you're promoting programs or providing information to students.  
+I present to you the Youtube clone built using React, Material-UI, and Rapid API. This is a web application that allows users to search and watch videos from YouTube. With React as the base for the frontend, Material-UI for the UI components, and Rapid API for the YouTube data API, it includes features such as pagination, dark mode, and responsive design. This project demonstrates my ability to use modern web technologies and API to create a user-friendly and functional web application."
                 link="https://goyoutube.netlify.app/"
                 github="https://github.com/anirudhsalaria/YouTube"
                 type="Featured Project"
               />
             </div>
-            
+
             <div className="col-span-6 
             sm:col-span-12">
               <Project
@@ -225,7 +226,7 @@ const Projects = () => {
                 type="Project"
               />
             </div>
-            
+
             <div className="col-span-6 
             sm:col-span-12">
               <Project
@@ -253,7 +254,7 @@ const Projects = () => {
               <Project
                 title="HarryPotter- Website"
                 img={project8}
-                summary="Created a Harry Potter frontend website from scratch using HTML and CSS. This is a web application that allows users to download Harry Potter books. This website has a very good frontend that is appealing to all people. It has a theme based on the Harry Potter world, with images, fonts, colors, and animations that create a magical experience."
+                summary="As a Harry Potter enthusiant with a passion for exploring the magic of Hogwarts, I created a theme based website based on the Harry Potter world, with images, fonts, colors, and animations that create a magical experience for the fellow Potterheads. The project is a frontend website from scratch using HTML and CSS. This is a web application that allows users to download Harry Potter books."
                 link="https://anirudhsalaria.github.io/Harrypotter/"
                 github="https://github.com/anirudhsalaria/Harrypotter"
                 type="Project"

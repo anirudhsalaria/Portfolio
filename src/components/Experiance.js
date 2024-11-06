@@ -52,7 +52,7 @@ const Experience = () => {
           " />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
-        <Details
+          <Details
             position="Full Stack Developer 2"
             company="Indian Institute of Technology Jammu"
             companyLink="https://www.iitjammu.ac.in/"
@@ -69,10 +69,18 @@ const Experience = () => {
             work="I developed ReactJS and Firebase-based web apps for real-time data monitoring. The Smart Agriculture app tracks sensor data with past data viewing, graph plotting, and report downloads. The Power Monitoring app monitors temperature, leak, and mains voltage with past data, user, and device management. I also created a 10-page website for Rach Smart Solutions and a PSU management app for RIPL with live monitoring, Google Maps integration, and fault reporting."
           />
           <Details
+            position="Full Stack Developer"
+            company="EDXL Learning & Innovations"
+            companyLink="https://www.edxl.in/"
+            time="Aug 2023-Nov 2023"
+            address="Remote"
+            work="During my tenure as a Full Stack Developer Intern, I spearheaded the development of an innovative Event Management System, showcasing my proficiency in both frontend and backend technologies. Leveraging ReactJS, I crafted an intuitive and responsive user interface that seamlessly interacted with the system's functionalities. On the backend, I utilized NodeJS and ExpressJS to architect a robust and scalable server, implementing RESTful APIs to facilitate smooth communication between the frontend and backend components. This experience not only honed my technical skills but also provided me with valuable insights into the complexities of creating dynamic and efficient web applications."
+          />
+          <Details
             position="Contributor"
             company="GirlScript Summer of Code"
             companyLink="https://gssoc.girlscript.tech/"
-            time="May 2023-Present"
+            time="May 2023-Aug 2023"
             address=" Remote"
             work="As an opensource contributor, I am working on various front-end and back-end projects using ReactJs, 
             ViteJs, ExpressJS, MongoDB, NodeJS, Tailwind, Bootstrap and various other tools.Till now I have 

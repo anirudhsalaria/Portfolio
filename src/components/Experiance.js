@@ -52,6 +52,22 @@ const Experience = () => {
           " />
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
+        <Details
+            position="Full Stack Developer 2"
+            company="Indian Institute of Technology Jammu"
+            companyLink="https://www.iitjammu.ac.in/"
+            time="August 2024 - Present"
+            address="Remote"
+            work="Working on RIPL live PSU managemnt System, developing various features for the website and enhancing user experience"
+          />
+          <Details
+            position="Full Stack Developer (RISE UP 2024)"
+            company="Indian Institute of Technology Jammu"
+            companyLink="https://www.iitjammu.ac.in/"
+            time="May 2024-July 2024"
+            address="Onsite"
+            work="I developed ReactJS and Firebase-based web apps for real-time data monitoring. The Smart Agriculture app tracks sensor data with past data viewing, graph plotting, and report downloads. The Power Monitoring app monitors temperature, leak, and mains voltage with past data, user, and device management. I also created a 10-page website for Rach Smart Solutions and a PSU management app for RIPL with live monitoring, Google Maps integration, and fault reporting."
+          />
           <Details
             position="Contributor"
             company="GirlScript Summer of Code"

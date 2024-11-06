@@ -51,10 +51,10 @@ const about = () => {
             <div className="col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75">About Me</h2>
               <p className="font-medium">
-                Hello, I am a passionate and creative web developer with experience in open source, frontend and backend
+                I am a passionate and creative web developer with experience in open source, frontend and backend
                 development. I have built and deployed various web applications using modern technologies and
                 frameworks such as React, Node.js, Vite.js, Next.js, MongoDB, Firebase, etc. I am an experienced coder
-                in JavaScript, C/C++ and Python. I am eager to learn new skills and contribute to innovative projects that
+                in JavaScript, C/C++ and Python, eager to learn new skills and contribute to innovative projects that
                 make a positive impact on the world. I am looking for an internship opportunity where I can apply my
                 knowledge and grow as a professional.
               </p>

@@ -198,7 +198,7 @@ I present to you the Youtube clone built using React, Material-UI, and Rapid API
               <Project
                 title="Travel Advisor"
                 img={project6}
-                summary="Created a Travel Advisor website using Reactjs, Material UI, GoogleMap API and Rapid API. This is a web application that allow users to find Restaurants, Hotels and Attractions around them. This website will automatically detect your location and will suggest you the hotels and restaurants around you. You can also search for different places by using the searchbar or you can simply navigate it directly using the map."
+                summary="From enquiring multiple agents, handling your luggage and family, looking for the best food to suppress your hunger, to getting lost while finding an escape for yourself, travelling to a new place throws up a number of hurdles your way.As an easy solution for all the mess, this Travel Advisor allows users to find Restaurants, Hotels and Attractions around them by automatically detecting the location and suggests the hotels and restaurants around you. Built using Reactjs, Material UI, GoogleMap API and Rapid API, you can also search for different places by using the searchbar or can simply navigate it directly using the map."
                 link="https://mytravelgo.netlify.app/"
                 github="https://github.com/anirudhsalaria/Travel-advisor"
                 type="Project"
@@ -279,7 +279,7 @@ I present to you the Youtube clone built using React, Material-UI, and Rapid API
               <Project
                 title="TopHire Website- Clone"
                 img={project10}
-                summary="Created the clone of TopHire Website - a leading company in recruitment using NextJs and Tailwind CSS, Tried to make the Website entirely simillar to the origonal one."
+                summary="Created the clone of TopHire Website - a leading company in recruitment using NextJs and Tailwind CSS, Tried to make the Website entirely simillar to the original one."
                 link="https://tophire-clone.netlify.app/"
                 github="https://github.com/anirudhsalaria/tophire_dashboard"
                 type="Project"
